@@ -1,0 +1,4 @@
+<h3>{{title}}</h3>
+<a href="javascript:void(0)" (click)="prePage()" [class.disabled]="!hasPre()">{{preText}}</a>
+<span>{{page}} / {{pageCount}}</span>
+<a href="javascript:void(0)" (click)="nextPage()" [class.disabled]="!hasNext()">{{nextText}}</a>

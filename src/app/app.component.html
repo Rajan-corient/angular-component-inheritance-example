@@ -1,0 +1,4 @@
+<h1>Test Component Extend</h1>
+
+<app-base [page]="1" [pageCount]="5"></app-base>
+<app-derived [page]="1" [pageCount]="5" (pageChanged)="pageChanged($event)"></app-derived>
